@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  *
  * @author Kevin Krumwiede
  */
-public class Track2Matcher {
+public class Track2MatcherX {
 	// this will not match if the input does not include the sentinels
 	// it could be made to if required
 	private final Matcher matcher = Pattern.compile(";([0-9]+)(=([0-9]{4})([0-9]*))?\\?").matcher("");

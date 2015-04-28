@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.tranware.cordova.ShuttlePlugin" version="0.0.2" xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.tranware.cordova.ShuttlePlugin" version="0.0.3" xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>IDTech Shuttle Card Reader</name>
     <description>Allow using the IDTech Shuttle Card Reader with PhoneGap apps</description>
     <author email="kkrumwiede@tranware.net" href="http://www.tranware.com">Universal Tranware, LLC</author>
@@ -25,6 +25,6 @@
         <source-file src="libs/IDT_UniMagSDKAndroid_v4.4.jar" target-dir="libs" />
         <source-file src="src/com/tranware/cordova/ShuttlePlugin.java" target-dir="src/com/tranware/cordova" />
         <source-file src="src/com/tranware/cordova/UniMagReaderMsgAdapter.java" target-dir="src/com/tranware/cordova" />
-        <source-file src="src/com/tranware/cordova/Track2Matcher.java" target-dir="src/com/tranware/cordova" />
+        <source-file src="src/com/tranware/cordova/Track2MatcherX.java" target-dir="src/com/tranware/cordova" />
     </platform>
 </plugin>

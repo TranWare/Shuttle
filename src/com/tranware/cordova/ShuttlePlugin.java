@@ -204,7 +204,7 @@ public class ShuttlePlugin extends CordovaPlugin {
 			if(flags == 0) {
 				Log.d(TAG, "received swipe");
 				final String trackData = new String(data);				
-				Track2Matcher matcher = new Track2Matcher();
+				Track2MatcherX matcher = new Track2MatcherX();
 				if(matcher.find(trackData)) {
 					success(matcher.getCard(), matcher.getExpMMYY(), trackData);
 				}
